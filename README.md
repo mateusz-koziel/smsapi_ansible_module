@@ -9,7 +9,7 @@ Module to works require python lib; you can got it using: `pip install smsapi-py
 1. Check you account
 ``` yaml
 - name: Check user account
-  smsapi:
+  smsapipl:
     api_key: <here-provide-your-api-token>
     state: check
 ```
@@ -17,7 +17,7 @@ Module to works require python lib; you can got it using: `pip install smsapi-py
 2. Send SMS
 ``` yaml
 - name: Send SMS
-  smsapi:
+  smsapipl:
     api_key: <here-provide-your-api-token>
     state: send
     to: <provide-consumer-number>
